@@ -48,7 +48,6 @@ export default function MovieDetailsPage() {
   };
 
   const goBack = () => {
-    // history.goBack();
     if (location.state && location.state.from) {
       return history.push(location.state.from);
     }

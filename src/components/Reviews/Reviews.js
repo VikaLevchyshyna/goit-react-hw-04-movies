@@ -12,7 +12,6 @@ export default function Reviews() {
     };
     renderMovieReviews();
   }, [movieId]);
-  console.log(reviews);
 
   return (
     <>
